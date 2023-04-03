@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #09042A;
+    flex-direction: column;
+    div{
+        height: 70px;
+        width: 70px;
+        background-color: #F5BB9C;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    div:nth-child(2){
+        border: 5px solid #E78481;
+        span{
+            // background-color: #09042A;
+            height: 70px;
+            width: 70px;
+            border-radius: 50px;
+            // display: flex;
+            // flex-direction: column;
+        }
+    }
+}

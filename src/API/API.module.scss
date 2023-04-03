@@ -1,0 +1,27 @@
+// CSS we can put what we need to make look like!!
+
+.container {
+    display: flex;
+    border: 1px solid;
+
+    div {
+        background-color: #ccc;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #0d0a0a;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+
+        // We can use Media queries to make this responsive;
+    }
+}
